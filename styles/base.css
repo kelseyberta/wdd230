@@ -1,8 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
-
-body {
-    font-family: "Open Sans", Arial, Helvetica;
-}
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=East+Sea+Dokdo&display=swap');
 
 nav {
     display: flex;
@@ -13,6 +9,8 @@ nav {
     gap: 3rem;
     padding: 1rem;
     margin: 0;
+    font-family: "East Sea Dokdo";
+    font-size: 40px;
 }
 nav *:nth-child(1) {
     padding-right: 1rem;
@@ -26,8 +24,8 @@ svg {
 }
 
 header {
-    background-color: rgb(11, 92, 155);
     color: white;
+    background-color: rgb(11, 92, 155);
     display: grid;
     grid-template-columns: auto 1fr;
 }
@@ -35,9 +33,11 @@ header {
 h1 {
     text-align: center;
     margin: auto 0;
+    font-family: "Bebas Neue";
+    font-size: 45px;
 }
-#profile {
-    max-width: 125px;
+.prof-pic {
+    min-width: 150px;
     grid-column: 1 / 2;
     padding: 10px;
     margin-left: 3rem;
@@ -56,12 +56,14 @@ main {
 h2 {
     grid-column: 1/-1;
     border-bottom: 1px solid black;
+    font-family: "Bebas Neue";
+    font-size: 35px;
 }
 
 section {
+    box-shadow: 5px 5px 5px 5px rgba(11, 9, 119, 0.5);
     border: 2px solid black;
     border-radius: 10px;
-    box-shadow: 2px 2px 3px 3px rgba(89, 100, 108, 0.5);
 }
 
 #activities {
@@ -82,27 +84,31 @@ section {
     grid-column: 2 / 3;
 }
 
-#information div{
-    padding: 10px 0 0 20px;
-}
 
 h3 {
     background-color: rgb(11, 92, 155);
-    color: white;
     text-align: center;
+    color: white;
     margin: 0;
-    border-radius: 8px 8px 0 0;
+    font-family: "Bebas Neue";
+    font-size: 35px;
+}
+section div, section a{
+    padding-left: 20px;
+    font-family: "East Sea Dokdo";
+    font-size: 25px;
+
 }
 
 footer {
     background-color: rgb(11, 92, 155);
-    color: white;
-    padding-left: 1rem;
     text-align: center;
+    color: white;
+    
 }
 
 footer p {
-    margin: 5px;
+    margin: 20px;
 }
 
 .highlight {
@@ -112,5 +118,7 @@ footer p {
 
 ul {
     list-style: none;
-    padding-left: 20px;
+    padding-left: 40px;
+    font-family: "East Sea Dokdo";
+    font-size: 25px;
 }
