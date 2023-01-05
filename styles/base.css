@@ -40,3 +40,6 @@ body{
 .last-update {
     color: gold;
 }
+ul{
+    list-style: none;
+}
