@@ -1,0 +1,22 @@
+header{
+    background-color: #290CE6;
+    display: grid;
+    grid-template-columns: 1fr 1fr 2fr 1fr;
+    color: #ffde92;
+    padding: 20px;
+}
+.logo{
+    grid-column: 1/2;
+    padding-left: 20px;
+    width:50%;
+
+}
+header h1{
+    grid-column: 2/3;
+    justify-content: left;
+}
+header p{
+    justify-content: center;
+    grid-column: 4/5;
+    color: white;
+}
