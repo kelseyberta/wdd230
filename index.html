@@ -6,9 +6,9 @@
         <title>WDD 230 - Media Query Example</title>
         <meta name="description" content="WDD 230 Kelsey Berta's course assignment portal">
         <meta name="author" content="Kelsey Berta">
+        <link rel="stylesheet" href="styles/normalize.css">
         <link rel="stylesheet" href="styles/base.css">
         <link rel="stylesheet" href="styles/larger.css">
-        <link rel="stylesheet" href="styles/normalize.css">
         <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=East+Sea+Dokdo&display=swap" rel="stylesheet">
         <link rel="icon" href="favicon.ico">
         <meta property="og:title" content="Kelsey Berta's Course Assignment Page">
@@ -19,10 +19,13 @@
 
 </head>
 <body>
-     <nav>
-        <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" height="48" width="48"><path d="M5.5 36.8v-3.95h37v3.95Zm0-10.8v-4h37v4Zm0-10.85V11.2h37v3.95Z"/></svg>
+     <nav >
+      <button onclick="myFunction()" class="dropbtn">Menu</button>
+      <div id="myDropdown" class="dropdown-content">
+        <a class="hamburger" href="#">&#9776; Menu</a>
         <a href="https://www.linkedin.com/in/kelsey-berta-280190150">LinkedIn</a>
         <a href="https://byui.edu">BYU-Idaho</a>
+      </div>
      </nav>
      <header>
         <img class="prof-pic" src="images/profile-pic.jfif" alt="Kelsey Berta Profile Picture">
@@ -61,5 +64,7 @@
         <p>&copy; 2023 - Kelsey Berta | New Jersey</p>
         <p class="highlight">Last modified: <span id="lastModified"></span></p>      </footer>
       <script src="scripts/getDates.js" defer></script>
+      <script src="scripts/hamburger.js"></script>
+      <script src="scripts/darkMode.js" defer></script>
 </body>
 </html>
