@@ -1,3 +1,4 @@
+/* header box */
 header{
     background-color: #290CE6;
     display: grid;
@@ -21,32 +22,58 @@ header p{
     color: white;
 }
 
-#hero{
+/* nav section */
+nav {
     display: flex;
+    flex-direction: row-reverse;
+    justify-content: right;
+    align-items: center;
+    background-color:#290CE6;
+    gap: 3rem;
+    padding: 1rem;
+    margin: 0;
+    font-size: 15px;
+    color: white;
+}
+nav *:nth-child(1) {
+    padding-right: 1rem;
+}
+nav ul li a{
+    color: white;
+}
+
+
+/* hero box */
+#hero{
+    display: block;
 }
 .hero-img{
-    justify-content: center;
+    margin: auto;
+    width: 40%;
+    padding-left: 10%;
 }
 .button-box{
-    text-align:right;
-
+    padding-left: 925px;
+    position: relative; bottom: 165px;
 }
 .button{
     background-color: #ffde92;
     color: black;
-    padding: 10px;
+    padding: 30px;
+    font-size: 30px;
 }
 .button:hover{
     background-color: #290CE6;
     color: white;
 }
+/* content section */
 #content{
     display: grid;
     grid-template-columns: 2fr 1fr;
     grid-template-rows: 1fr 1fr;
 }
 #events-box, #spotlight-box, #weather-box{
-    box-shadow: 2px 2px 2px 2px #290CE6;
+    box-shadow: 2px 2px 2px 2px #ffde92;
     border: 2px solid black;
     border-radius: 10px;
 }
@@ -62,6 +89,7 @@ header p{
     grid-column: 2/3;
     grid-row: 1/2;
 }
+/* footer section */
 footer{
     background-color: #290CE6;
     padding: 20px;
