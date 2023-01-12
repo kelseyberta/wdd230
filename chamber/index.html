@@ -14,22 +14,26 @@
         <h1>Roxbury Area Chamber of Commerce</h1>
         <p>"We Bring Together The Community One Business At A Time."</p>
     </header>
-    <nav>
-        <ul>
-            <li>
-                <a href="#">Home</a>
-            </li>
-            <li>
-                <a href="#">Discover</a>
-            </li>
-            <li>
-                <a href="#">Directory</a>
-            </li>
-            <li>
-                <a href="#">Join</a>
-            </li>
+    <nav class="navbar" >
+        <ul class="nav">
+          <li title="menu home">
+            <a href="#" id="nav-button">&#9776; Menu</a>
+          </li>
+          <li title="home">
+            <a href="#" class="nav-item">Home</a>
+          </li>
+          <li title="discover">
+            <a href="#" class="nav-item">Discover</a>
+          </li>
+          <li title="directory">
+            <a class="nav-item" >Directory</a>
+          </li>
+          <li title="join">
+            <a class="nav-item" >Join</a>
+          </li>
+          
         </ul>
-    </nav>
+       </nav>
    
     <main>
         <div id="hero">
@@ -68,6 +72,7 @@
         <p class="highlight">Last modified: <span id="lastModified"></span></p>
     </footer>
     <script src="scripts/getDates.js" defer></script>
+    <script src="scripts/hamburger.js" defer></script>
 
 </body>
 </html>

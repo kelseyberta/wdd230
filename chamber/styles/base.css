@@ -20,27 +20,52 @@ header p{
     justify-content: center;
     grid-column: 4/5;
     color: white;
+    padding-top: 40px;
 }
 
 /* nav section */
-nav {
-    display: flex;
-    flex-direction: row-reverse;
-    justify-content: right;
-    align-items: center;
-    background-color:#290CE6;
-    gap: 3rem;
-    padding: 1rem;
-    margin: 0;
-    font-size: 15px;
-    color: white;
+.nav {
+	position: fixed;
+	top: 0;
+	right: 0;
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	background: white;
+	z-index: 10;
+	overflow: hidden;
+	box-shadow: 2px 0 20px rgba(0, 0, 0, 0.26);
 }
-nav *:nth-child(1) {
-    padding-right: 1rem;
+.nav li a {
+	display: block;
+	text-decoration: none;
+	text-align: center;
+	width: 12rem;
+	padding: 1rem;
+	color: #290CE6;
+	position: relative;
+	border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+	transition: background 0.5s ease-in-out;
 }
-nav ul li a{
-    color: white;
+
+.nav li a:hover,
+.nav li:first-child a {
+	background: #ffde92;
+	color: black;
 }
+
+li a.nav-item {
+	display: none;
+}
+
+li a.open {
+	display: flex;
+}
+
+.close::before {
+	content: "✖ ";
+}
+
 
 
 /* hero box */
