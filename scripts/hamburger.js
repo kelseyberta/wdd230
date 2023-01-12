@@ -1,13 +1,8 @@
-const hamburger = document.querySelector(".hamburger");
-const navMenu = document.querySelector(".nav-menu");
+const navbutton = document.querySelector("#nav-button");
+const navitems = document.querySelectorAll(".nav-item");
+// menuitems will be a Node List of the list items
 
-hamburger.addEventListener("click", () =>{
-  hamburger.classList.toggle("active");
-  navMenu.classList.toggle("active");
-})
-
-document.querySelectorAll(".nav-link").forEach(n => n. addEventListener("click", () => {
-  hamburger.classList.remove("active");
-  navMenu.classList.remove("active");
-
-}))
+navbutton.addEventListener("click", () => {
+	navitems.forEach((item) => item.classList.toggle("open"));
+	navbutton.classList.toggle("close");
+});

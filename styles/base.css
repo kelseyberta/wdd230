@@ -7,44 +7,50 @@ main {
 	background-color: #eee;
 	color: #000;
 }
-li{
-    list-style: none;
+.nav {
+	position: fixed;
+	top: 0;
+	right: 0;
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	background: whitesmoke;
+	z-index: 10;
+	overflow: hidden;
+	box-shadow: 2px 0 20px rgba(0, 0, 0, 0.26);
 }
-.navbar{
-    min-height: 70px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 0 24px;
+.nav li a {
+	display: block;
+	text-decoration: none;
+	text-align: center;
+	width: 12rem;
+	padding: 1rem;
+	color: rgb(11, 92, 155);
+	position: relative;
+	border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+	transition: background 0.5s ease-in-out;
 }
-.nav-menu{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    gap: 60px;
+
+.nav li a:hover,
+.nav li:first-child a {
+	background: rgb(11, 92, 155);
+	color: whitesmoke;
 }
-.nav-branding{
-    font-size: 2rem;
+
+li a.nav-item {
+	display: none;
 }
-.nav-link{
-    transition: 0.7s ease;
+
+li a.open {
+	display: flex;
 }
-.nav-link:hover{
-    color: aqua;
+
+.close::before {
+	content: "✖ ";
 }
-.hamburger{
-    display: none;
-    cursor: pointer;
-}
-.bar{
-    display: block;
-    width: 25px;
-    height: 3px;
-    margin: 5px auto;
-    -webkit-transition: all 0.3s ease-in-out;
-    transition: all 0.3s ease-in-out;
-    background-color: white;
-}
+
+
+
 main img {
 	float: right;
 	margin: 0 0 1rem 1rem;
@@ -53,33 +59,13 @@ main img {
 }
 
 #mode {
-	position: absolute;
-	top: 1rem;
-	right: 1rem;
+	
 	font-size: 3rem;
 	cursor: pointer;
 }
 
 
-nav {
-    display: flex;
-    flex-direction: row-reverse;
-    justify-content: right;
-    align-items: center;
-    background-color: black;
-    gap: 3rem;
-    padding: 1rem;
-    margin: 0;
-    font-family: "East Sea Dokdo";
-    font-size: 40px;
-}
-nav *:nth-child(1) {
-    padding-right: 1rem;
-}
 
-nav a{
-    color: white;
-}
 svg {
     filter: brightness(0) invert(1);
 }
