@@ -66,7 +66,13 @@ li a.open {
 	content: "✖ ";
 }
 
-
+/* discover page main */
+.column {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 5px;
+    padding: 5px;
+}
 
 /* hero box */
 #hero{
@@ -97,10 +103,24 @@ li a.open {
     grid-template-columns: 2fr 1fr;
     grid-template-rows: 1fr 1fr;
 }
-#events-box, #spotlight-box, #weather-box{
-    box-shadow: 2px 2px 2px 2px #ffde92;
+#events-box, #spotlight-box, #weather-box, .column, .discover-events{
+    box-shadow: 2px 2px 2px 2px #290CE6;
     border: 2px solid black;
     border-radius: 10px;
+}
+.column, .visits, .discover-events{
+    background-color: #ffde92;
+    padding: 10px;
+    margin: 10px;
+}
+.events-header{
+    text-align: center;
+}
+.column h3{
+    text-align: center;
+}
+.discover-roxbury{
+    text-align: center;
 }
 #events-box{
     grid-column: 1/2;
@@ -113,6 +133,12 @@ li a.open {
 #weather-box{
     grid-column: 2/3;
     grid-row: 1/2;
+}
+.mod{
+    font-weight:bolder;
+}
+.imgae h2{
+    text-align: centers;
 }
 /* footer section */
 footer{

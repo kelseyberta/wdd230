@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Roxbury Chamber Of Commerce Home Page</title>
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/larger.css">
+</head>
+<body>
+    <header>
+        <img class="logo" src="images/logo.jfif" alt="Logo For Roxbury Chamber of Commerce">
+        <h1>Roxbury Area Chamber of Commerce</h1>
+        <p>"We Bring Together The Community One Business At A Time."</p>
+    </header>
+    <nav class="navbar" >
+        <ul class="nav">
+          <li title="menu home">
+            <a href="#" id="nav-button">&#9776; Menu</a>
+          </li>
+          <li title="home">
+            <a href="#" class="nav-item">Home</a>
+          </li>
+          <li title="discover">
+            <a href="#" class="nav-item">Discover</a>
+          </li>
+          <li title="directory">
+            <a class="nav-item" >Directory</a>
+          </li>
+          <li title="join">
+            <a class="nav-item" >Join</a>
+          </li>
+          
+        </ul>
+       </nav>
+   
+    <main>
+      <h2 class="discover-roxbury">Discover Roxbury!</h2>
+      <div class="discover-grid">
+        <div class="demographics">
+        <section class="column">
+          <h3>Quick Facts</h3>
+          <ul>
+            <li>Founded: 1740</li>
+            <li>Population: 23,000</li>
+            <li>115th most populated city in New Jersey</li>
+            <li>Median Age: 50</li>
+            <li>Elevation: 837 ft</li>
+          </ul>
+            <div class="visits"><p class="mod">Days Since Last Visit: <span id="visit"></span></p></div>
+          </section>
+          <div class="discover-events">
+            <h3 class="events-header">EVENTS</h3>
+            <h4>Business Beyond Basics: March 25, 2023</h4>
+            <p>Produced jointly by the Roxbury Area Chamber of Commerce and the Roxbury Public Library, Business Beyond Basics Events provide continuing education programs that bring businesses and the community together to network, learn, and grow</p>
+            <h4>Roxbury Chamber Luncheon & Meeting: April 16, 2023</h4>
+            <p>We`ll begin at noon with introductions around the room, then lunch and our featured speaker. Come early for open networking from 11:40-12. All area business owners and representatives are welcome. More attendees brings better networking and more future referrals.</p>
+          </div>
+        </div>
+        <div id="discover-imgs">
+        <picture class="image">
+            <img class="horseshoe-img" src="images/horseshoe.webp" loading="lazy">
+            <h2>Horseshoe Lake loved all year round</h2>
+        </picture>
+        <picture class="image">
+          <img id="church-img" src="images/rox-church.webp" loading="lazy">
+          <h2>The Church Of Jesus Christ Of Latter Day Saints On Mountain Road</h2>
+      </picture>
+      <picture class="image">
+        <img id="toms-diner-img" src="images/toms-diner.webp" loading="lazy">
+        <h2>Historic Tom's Diner</h2>
+      </picture>
+      </div>
+    </div>
+    </main>
+    <footer>
+        <p>&copy; 2023 - Kelsey Berta</p>
+        <p>WDD 230</p>
+        <p class="highlight">Last modified: <span id="lastModified"></span></p>
+    </footer>
+    <script src="scripts/getDates.js" defer></script>
+    <script src="scripts/hamburger.js" defer></script>
+    <script src="scripts/lastVisit.js" defer></script>
+
+</body>
+</html>

@@ -44,4 +44,28 @@
     .nav-menu.active{
         left: 0;
     }
+   
+}
+
+@media only screen and (min-width: 700px){
+    .discover-grid{
+        display: grid;
+        grid-template-columns: 1fr 2fr;
+        padding: 3%;
+        column-gap: 20px;
+    }
+    .column{
+        grid-column: 1/2;
+    }
+    #discover-imgs{
+        grid-column: 2/3;
+        margin: 0 auto;
+        text-align: center;
+        
+    }
+    .horseshoe-img:hover, #church-img:hover, #toms-diner-img:hover {
+        box-shadow: 0 0 50px black;
+        
+    }
+    
 }
