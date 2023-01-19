@@ -57,6 +57,7 @@
     }
     .demographics{
         grid-column: 1/2;
+        padding-left: 70px;
     }
     #discover-imgs{
         grid-column: 2/3;
@@ -68,4 +69,5 @@
         text-align: center;
         
     }
+    
 }
