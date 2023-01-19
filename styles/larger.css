@@ -15,16 +15,16 @@
     section {
         margin: 2rem;
     }
-    .hamburger{
+    .nav{
         display: block;
     }
-    .hamburger.active .bar:nth-child(1){
+    .nav.active li :nth-child(1){
         transform: translateY(8px) rotate(45deg);
     }
-    .hamburger.active .bar:nth-child(2){
+    .nav.active li:nth-child(2){
         opacity: 0;
     }
-    .hamburger.active .bar:nth-child(3){
+    .nav.active li:nth-child(3){
         transform: translateY(-8px) rotate(-45deg);
     }
     .nav-menu{
@@ -44,4 +44,5 @@
     .nav-menu.active{
         left: 0;
     }
+   
 }

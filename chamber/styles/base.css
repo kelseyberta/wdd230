@@ -138,7 +138,15 @@ li a.open {
     font-weight:bolder;
 }
 .imgae h2{
-    text-align: centers;
+    text-align: center;
+}
+.image{
+    text-align: center;
+    justify-content: center;
+}
+#discover-imgs{
+    justify-content: center;
+    text-align: center;
 }
 /* footer section */
 footer{
