@@ -1,0 +1,32 @@
+:root { 
+	--bord: 1px solid #777;
+    --zebra: rgb(202, 131, 240);
+}
+* {
+	box-sizing: border-box;
+    justify-content: center;
+}
+table{
+    border-collapse: collapse;
+    margin: auto;
+
+}
+th, td{
+    border: var(--bord);
+}
+caption{
+    caption-side: bottom;
+    color: blueviolet;
+}
+tbody tr:nth-child(even) {
+	background-color: var(--zebra);
+}
+tr:first-child th{
+    background-color: purple;
+    color: white;
+    font-size: 20px;
+}
+tr:nth-child(2){
+    background-color: blueviolet;
+    color: white;
+}
