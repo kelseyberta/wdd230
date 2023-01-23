@@ -1,4 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=East+Sea+Dokdo&display=swap');
+:root{
+	--blue-color: rgb(11, 92, 155);
+	--header-font:"Bebas Neue";
+	--text-font: "East Sea Dokdo";
+}
 main {
 	margin: 0;
 	border: 1px solid rgba(0, 0, 0, 0.2);
@@ -34,7 +39,7 @@ main {
 
 .nav li a:hover,
 .nav li:first-child a {
-	background: rgb(11, 92, 155);
+	background: var(--blue-color);
 	color: whitesmoke;
 }
 
@@ -81,7 +86,7 @@ header {
 h1 {
     text-align: center;
     margin: auto 0;
-    font-family: "Bebas Neue";
+    font-family: var(--header-font);
     font-size: 45px;
 }
 .prof-pic {
@@ -168,22 +173,22 @@ section {
 
 
 h3 {
-    background-color: rgb(11, 92, 155);
+    background-color:var(--blue-color);
     text-align: center;
     color: white;
     margin: 0;
-    font-family: "Bebas Neue";
+    font-family: var(--header-font);
     font-size: 35px;
 }
 section div, section a{
     padding-left: 20px;
-    font-family: "East Sea Dokdo";
+    font-family: var(--text-font);
     font-size: 25px;
 
 }
 
 footer {
-    background-color: rgb(11, 92, 155);
+    background-color: var(--blue-color);
     text-align: center;
     color: white;
     
@@ -201,6 +206,6 @@ footer p {
 ul {
     list-style: none;
     padding-left: 40px;
-    font-family: "East Sea Dokdo";
+    font-family: var(--text-font);
     font-size: 25px;
 }

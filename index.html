@@ -83,6 +83,16 @@
         <section class="map">
           <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d20292.73247426173!2d-74.66698182411093!3d40.88212763242108!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c39e2897e397c7%3A0x5a71c2343d89c216!2sRoxbury%20Township%2C%20NJ!5e0!3m2!1sen!2sus!4v1673992645928!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
         </section>
+        <form method="get">
+          <fieldset>
+            <legend>Form Name</legend>
+            <label>Full Name*<input type="text" name="fullName" required></label>
+            <label>Email*<input type="email" name="email" required></label>
+            <label>Page Rating (1-10)<input type="range"  min="1" max="10"></label>
+            <label>Password*<input type="password" required pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z] .{5,12}" title="5-12 characters required"></label>
+            <label>Repeat Password*<input type="password" required></label>
+          </fieldset>
+        </form>
       </main>
       <footer>
         <p>&copy; 2023 - Kelsey Berta | New Jersey</p>
