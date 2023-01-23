@@ -211,7 +211,7 @@ form label.top input, form textarea{
     border: solid 1px #999;
     border-radius: 4px;
     padding: .75rem;
-    color: rgb(194, 192, 192);
+    color: rgb(5, 4, 4);
     width: 90%;
     max-width: 20rem;
     background-color: rgba(0, 0, 0, .1);
