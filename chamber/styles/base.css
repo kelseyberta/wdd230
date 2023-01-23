@@ -90,7 +90,9 @@ li a.open {
 }
 .button-box{
     padding-left: 925px;
-    position: relative; bottom: 165px;
+    position: relative; 
+    bottom: 165px;
+    border: #ffde92;
 }
 .button{
     background-color: #ffde92;
