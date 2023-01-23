@@ -38,33 +38,55 @@
        </nav>
    
     <main>
+      <div class="form-center">
         <form method="get" action="thankyou.html">
             <fieldset>
                 <legend>Member Information</legend>
-                <label class="top">First Name*<input type="text" name="fname" required></label>
-                <label class="top">Last Name*<input type="text" name="lname" required></label>
-                <label>Position Title<input type="text" name="position" pattern=""></label>
-                <label class="top">Email*<input type="email" name="email" placeholder="someone@gmail.com" required ></label>
-                <label class="top">Phone*<input type="tel" name="phone" required></label>
-                <label class="top">Business Name/Title*<input type="text" name="businessName" required></label>
+                <label class="top"> First Name* <input type="text" name="fname" required></label>
+                <label class="top"> Middle Name* <input type="text" name="lname" required></label>
+                <label class="top"> Position Title <input type="text" name="position" pattern="[\w\s\-]{7,}"></label>
+                <label class="top"> Email* <input type="email" name="email" placeholder="someone@gmail.com" required ></label>
+                <label class="top"> Phone* <input type="tel" name="phone" required></label>
+                <label class="top"> Business Name/Title* <input type="text" name="businessName" required></label>
             </fieldset>
             <fieldset>
                 <legend>Membership Level</legend>
-                <label class="top"><input type="radio" name="membershipLevel" > Non-Profit </label>
-                <label class="top"><input type="radio" name="membershipLevel" > Bronze </label>
-                <label class="top"><input type="radio" name="membershipLevel" > Silver </label>
-                <label class="top"><input type="radio" name="membershipLevel" > Gold </label>
+                <label class="member"><input type="radio" name="membershipLevel" > Non-Profit </label>
+                <label class="member"><input type="radio" name="membershipLevel" > Bronze </label>
+                <label class="member"><input type="radio" name="membershipLevel" > Silver </label>
+                <label class="member"><input type="radio" name="membershipLevel" > Gold </label>
                 <div>
-                    <p>Description</p>
+                    <h2>Non profit - no annual fees</h2>
+                    <ul>
+                      <li>Newsletter</li>
+                      <li>Advertising Opportunities</li>
+                    </ul>
+                    <h2>Bronze - $100 annually</h2>
+                    <ul>
+                      <li>Free spotlight once a month</li>
+                      <li>Newsletter</li>
+                    </ul>
+                    <h2>Silver - $175 annually</h2>
+                    <ul>
+                      <li>Free spotlight once a month</li>
+                      <li>Newsletter</li>
+                    </ul>
+                    <h2>Gold - $250 annually</h2>
+                    <ul>
+                      <li>Free spotlight 3 times a month</li>
+                      <li>Free entry to events</li>
+                      <li>Newsletter</li>
+                    </ul>
                 </div>
             </fieldset>
             <fieldset>
-                <label>Business Description<input type="text" name="description"></label>
-                <label>Current Date and Time<input type="hidden" name="time"></label>
+                <label for="descripton-box" class="bottom"> Business Description </label>
+                <textarea id="description-box" name="description-box" rows="4" cols="50"></textarea>
+                <label class="bottom"><input type="hidden" name="time"></label>
             </fieldset>
             <input type="submit" value="Join The Chamber" class="submitBtn">
 
-        </form>
+        </form></div>
     </main>
     <footer>
         <p>&copy; 2023 - Kelsey Berta</p>
