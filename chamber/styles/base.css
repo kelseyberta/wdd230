@@ -74,12 +74,9 @@ li a.open {
 	content: "✖ ";
 }
 
-/* discover page main */
-.column {
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-gap: 5px;
-    padding: 5px;
+#index-main{
+    margin: auto;
+    padding: 10px;
 }
 
 /* hero box */
@@ -164,6 +161,25 @@ footer{
     color: #ffde92;
     text-align: center;
     bottom: 0;
+}
+/*discover page*/
+.discover-grid{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+}
+.demographics{
+    grid-column: 1/2;
+    padding-left: 70px;
+}
+#discover-imgs{
+    grid-column: 2/3;
+}
+.horseshoe-img:hover, #church-img:hover, #toms-diner-img:hover{
+    box-shadow: 0 0 50px black;
+   }
+.horseshoe-img, #church-img, #toms-diner-img{
+    text-align: center;
+    
 }
 
 /* Join Page */
