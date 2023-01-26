@@ -83,16 +83,67 @@
         <section class="map">
           <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d20292.73247426173!2d-74.66698182411093!3d40.88212763242108!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c39e2897e397c7%3A0x5a71c2343d89c216!2sRoxbury%20Township%2C%20NJ!5e0!3m2!1sen!2sus!4v1673992645928!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
         </section>
-        <form method="get">
-          <fieldset>
-            <legend>Form Name</legend>
-            <label>Full Name*<input type="text" name="fullName" required></label>
-            <label>Email*<input type="email" name="email" required></label>
-            <label>Page Rating (1-10)<input type="range"  min="1" max="10"></label>
-            <label>Password*<input type="password" required pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z] .{5,12}" title="5-12 characters required"></label>
-            <label>Repeat Password*<input type="password" required></label>
-          </fieldset>
-        </form>
+        <section class="card" id="contact">
+          <h3>Contact Form</h3>
+          <form method='get' id="myForm">
+              <fieldset>
+                  <legend>Contact Us</legend>
+                  <label class="top">Your Full Name*<input type="text" id="name" name="fname" placeholder="John Smith" required></label>
+                  <label class="top">Your Email*<input type="email" id="email" name="email" placeholder="someone@gmail.com" required></label>
+                  <label class="top">Password*<input type="password" id="password1" placeholder="5-12 w/number, special, upper, lower" pattern="(?=.*\d)(?=.*[a-z])(?=.*[^A-Za-z0-9])(?=.*[A-Z]).{5,12}" required></label>
+                  <label class="top">Verify Password*<input type="password" id="password2"  placeholder="Match the one above!" required></label>
+                  <div id="formmessage"></div>
+              </fieldset>
+              <fieldset>
+                  <legend>Rate our Site?></legend>
+                  <div id="rating">
+                      <input type="range" min="1" max="10" value="5" step=".5" id="r"  name="r" list="tickmarks"><label for="r">[ <span id="ratingValue"></span> ]</label>
+                      
+                      <datalist id="tickmarks">
+                          <option value="1" label="Let us know how to improve"></option>
+                          <option value="10" label="Glad To Hear"></option>   
+                        </datalist>
+                  </div>
+              </fieldset>
+              <fieldset>
+                  <div id="submit">
+                      <input type="submit" id="myBtn" value="Send your information!" class="submitBtn">
+                  </div>
+              </fieldset>
+          </form>
+      </section>
+  </div>
+  <section class="card" id="formInput">
+      <h3>Form Input</h3>
+      <table>
+          <thead>
+              <tr>
+                  <th colspan="2" >Form Input</th>
+              </tr>
+              <tr>
+                  <th>Field</th>
+                  <th>Value</th>
+              </tr>
+          </thead>
+          <tr>
+            <td>Name:</td>
+            <td id="tdName"></td>
+          </tr>
+          <tr>
+              <td>Email:</td>
+              <td id="tdEmail"></td>
+          </tr>
+          <tr id="alertRow">
+              <td>Rating:</td>
+              <td id="tdRating"></td>
+          </tr>
+          <tr>
+              <td>Password:</td>
+              <td id="tdPassword"></td>
+          </tr>
+        </table>
+  </section>  
+
       </main>
       <footer>
         <p>&copy; 2023 - Kelsey Berta | New Jersey</p>
@@ -101,5 +152,11 @@
       <script src="scripts/hamburger.js"></script>
       <script src="scripts/darkMode.js" defer></script>
       <script src="scripts/visits.js"></script> 
+      <script src="scripts/password.js" defer></script>
+      <script src="scripts/submit.js" defer></script>
+      <script src="scripts/rating.js" defer></script>
+
+
+
 </body>
 </html>

@@ -44,5 +44,7 @@
     .nav-menu.active{
         left: 0;
     }
-   
+   main{
+    display: block;
+   }
 }
