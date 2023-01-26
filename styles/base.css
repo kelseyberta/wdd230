@@ -288,6 +288,7 @@ form fieldset {
 	background-color: white;
 	padding-bottom: 8px;
 	width: fit-content;
+	height: fit-content;
   }
   
   table {
