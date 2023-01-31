@@ -1,0 +1,33 @@
+{
+    "familyName" : "Berta",
+    "movingDate" : "Sepetmber 2, 2013",
+    "numOfFamilyMem" : 5,
+    "visitedByBishopric" : true,
+    "famMember" : [
+        {
+            "memName" : "Kelsey",
+            "gender" : "female",
+            "birthdate" : "March 5"
+        },
+        {
+            "memName" : "Kelsey",
+            "gender" : "female",
+            "birthdate" : "March 5"
+        },
+        {
+            "memName" : "Kelsey",
+            "gender" : "female",
+            "birthdate" : "March 5"
+        },
+        {
+            "memName" : "Kelsey",
+            "gender" : "female",
+            "birthdate" : "March 5"
+        },
+        {
+            "memName" : "Kelsey",
+            "gender" : "female",
+            "birthdate" : "March 5"
+        }
+    ]
+}

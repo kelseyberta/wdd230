@@ -1,0 +1,54 @@
+{
+    "chamberName" : "Roxbury Area Chamber of Commerce",
+    "chamberMember" : [
+        {
+            "memName" : "Aero Environmental",
+            "address" : "275 NJ-10 E Unit 220 Succasunna, NJ",
+            "phoneNum" : "862-397-0907",
+            "url" : "aeroenvironmental.net",
+            "img" : "link",
+            "memLevel" : "Silver"
+        },
+        {
+            "memName" : "Giancarlo's Bakery",
+            "address" : "410 Rt. 10 W Ledgewood, NJ",
+            "phoneNum" : "973-973-9739",
+            "url" : "giancarlosbakery.com",
+            "img" : "link",
+            "memLevel" : "Gold"
+        },
+        {
+            "memName" : "Roxbury Bagel",
+            "address" : "111 Rt 10 E Succasunna, NJ",
+            "phoneNum" : "973-927-0112",
+            "url" : "roxburybagelsanddeli.com",
+            "img" : "link",
+            "memLevel" : "Bronze"
+        },
+        {
+            "memName" : "Roxbury Garden Center",
+            "address" : "131 NJ-10 E Succasunna, NJ",
+            "phoneNum" : "973-927-7788",
+            "url" : "roxburygardencenter.com",
+            "img" : "link",
+            "memLevel" : "NP"
+        },
+        {
+            "memName" : "Roxbury Diner",
+            "address" : "101 NJ-10 W Succasunna, NJ",
+            "phoneNum" : "973-584-2818",
+            "url" : "roxburynjdiner.com",
+            "img" : "link",
+            "memLevel" : "NP"
+        },
+        {
+            "memName" : "East Coast Towing",
+            "address" : "747 US-46 Kenvil, NJ",
+            "phoneNum" : "862-432-1997",
+            "url" : "east-coast-towing-towing-service.business.site",
+            "img" : "link",
+            "memLevel" : "Silver"
+        }
+        
+    ]
+}
