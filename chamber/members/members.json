@@ -1,12 +1,12 @@
 {
-    "businesses": [
+    "members": [
         {
             "name": "Aero Properties",
             "address": "275 NJ-10 E Unit 220 Succasunna",
-            "phoneNumber": "862-397-0907",
+            "phone": "862-397-0907",
             "url": "https://www.aeropropertiesllc.com/",
-            "image": "./images/aero-img.jpg",
-            "membershipLevel": "Gold"
+            "icon": "./images/aero-img.jpg",
+            "membership": "Gold"
         },
         {
             "name": "Giancarlo's Bakery and Deli",
