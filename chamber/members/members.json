@@ -1,54 +1,60 @@
 {
-    "chamberName" : "Roxbury Area Chamber of Commerce",
-    "chamberMember" : [
+    "businesses": [
         {
-            "memName" : "Aero Environmental",
-            "address" : "275 NJ-10 E Unit 220 Succasunna, NJ",
-            "phoneNum" : "862-397-0907",
-            "url" : "aeroenvironmental.net",
-            "img" : "link",
-            "memLevel" : "Silver"
+            "name": "Aero Properties",
+            "address": "275 NJ-10 E Unit 220 Succasunna",
+            "phoneNumber": "862-397-0907",
+            "url": "https://www.aeropropertiesllc.com/",
+            "image": "./images/aero-img.jpg",
+            "membershipLevel": "Gold"
         },
         {
-            "memName" : "Giancarlo's Bakery",
-            "address" : "410 Rt. 10 W Ledgewood, NJ",
-            "phoneNum" : "973-973-9739",
-            "url" : "giancarlosbakery.com",
-            "img" : "link",
-            "memLevel" : "Gold"
+            "name": "Giancarlo's Bakery and Deli",
+            "address": "410 Route 10 W Ledgewood",
+            "phoneNumber": "973-252-5051",
+            "url": "https://giancarlosbakery.com/",
+            "image": "./images/giancarlos-img.JPG",
+            "membershipLevel": "NP"
         },
         {
-            "memName" : "Roxbury Bagel",
-            "address" : "111 Rt 10 E Succasunna, NJ",
-            "phoneNum" : "973-927-0112",
-            "url" : "roxburybagelsanddeli.com",
-            "img" : "link",
-            "memLevel" : "Bronze"
+            "name": "Roxbury Diner",
+            "address": "101 NJ-10 W Succasunna",
+            "phoneNumber": "973-584-2818",
+            "url": "https://www.roxburynjdiner.com/",
+            "image": "./images/diner-img.jpg",
+            "membershipLevel": "Gold"
         },
         {
-            "memName" : "Roxbury Garden Center",
-            "address" : "131 NJ-10 E Succasunna, NJ",
-            "phoneNum" : "973-927-7788",
-            "url" : "roxburygardencenter.com",
-            "img" : "link",
-            "memLevel" : "NP"
+            "name": "Roxbury Garden Center",
+            "address": "131 NJ-10 E Succasunna",
+            "phoneNumber": "973-927-7788",
+            "url": "https://www.roxburygardencenter.com/",
+            "image": "./images/garden-img.JPG",
+            "membershipLevel": "Bronze"
         },
         {
-            "memName" : "Roxbury Diner",
-            "address" : "101 NJ-10 W Succasunna, NJ",
-            "phoneNum" : "973-584-2818",
-            "url" : "roxburynjdiner.com",
-            "img" : "link",
-            "memLevel" : "NP"
+            "name": "East Coast Towing",
+            "address": "747 US-46 Kenvil",
+            "phoneNumber": "862-432-1997",
+            "url": "https://east-coast-towing-towing-service.business.site/",
+            "image": "./images/east-coast-img.jpg",
+            "membershipLevel": "Silver"
         },
         {
-            "memName" : "East Coast Towing",
-            "address" : "747 US-46 Kenvil, NJ",
-            "phoneNum" : "862-432-1997",
-            "url" : "east-coast-towing-towing-service.business.site",
-            "img" : "link",
-            "memLevel" : "Silver"
+            "name": "Roxbury Bagel",
+            "address": "111 Route 10 E Succasunna",
+            "phoneNumber": "973-927-0112",
+            "url": "https://roxburybagelsanddeli.com/",
+            "image": "./images/rox-bagel-img.PNG",
+            "membershipLevel": "NP"
+        },
+        {
+            "name": "Ron & Sons Towing",
+            "address": "524 US-46 Kenvil",
+            "phoneNumber": "973-927-9194",
+            "url": "https://ronandsonstowing.com/",
+            "image": "./images/ron-sons-img.JPG",
+            "membershipLevel": "Bronze"
         }
-        
     ]
-}
+    }

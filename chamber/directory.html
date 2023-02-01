@@ -40,8 +40,15 @@
         </ul>
        </nav>
    
-    <main>
-        
+    <main id="directory-main">
+      <div class="viewChanger">
+        <button id="viewGrid">⏹️Grid</button>
+        <button id="viewList">📄List</button>
+      </div>
+
+      <article class="grid">
+        <div class="cards"></div>
+      </article>
     </main>
     <footer>
         <p>&copy; 2023 - Kelsey Berta</p>
@@ -50,6 +57,8 @@
     </footer>
     <script src="scripts/getDates.js" defer></script>
     <script src="scripts/hamburger.js" defer></script>
+    <script src="scripts/directory.js"></script>
+    <script src="scripts/viewChange.js"></script>
 
 </body>
 </html>
