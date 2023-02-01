@@ -11,50 +11,50 @@
         {
             "name": "Giancarlo's Bakery and Deli",
             "address": "410 Route 10 W Ledgewood",
-            "phoneNumber": "973-252-5051",
+            "phone": "973-252-5051",
             "url": "https://giancarlosbakery.com/",
-            "image": "./images/giancarlos-img.JPG",
-            "membershipLevel": "NP"
+            "icon": "./images/giancarlos-img.JPG",
+            "membership": "NP"
         },
         {
             "name": "Roxbury Diner",
             "address": "101 NJ-10 W Succasunna",
-            "phoneNumber": "973-584-2818",
+            "phone": "973-584-2818",
             "url": "https://www.roxburynjdiner.com/",
-            "image": "./images/diner-img.jpg",
-            "membershipLevel": "Gold"
+            "icon": "./images/diner-img.jpg",
+            "membership": "Gold"
         },
         {
             "name": "Roxbury Garden Center",
             "address": "131 NJ-10 E Succasunna",
-            "phoneNumber": "973-927-7788",
+            "phone": "973-927-7788",
             "url": "https://www.roxburygardencenter.com/",
-            "image": "./images/garden-img.JPG",
-            "membershipLevel": "Bronze"
+            "icon": "./images/garden-img.JPG",
+            "membership": "Bronze"
         },
         {
             "name": "East Coast Towing",
             "address": "747 US-46 Kenvil",
-            "phoneNumber": "862-432-1997",
+            "phone": "862-432-1997",
             "url": "https://east-coast-towing-towing-service.business.site/",
-            "image": "./images/east-coast-img.jpg",
-            "membershipLevel": "Silver"
+            "icon": "./images/east-coast-img.jpg",
+            "membership": "Silver"
         },
         {
             "name": "Roxbury Bagel",
             "address": "111 Route 10 E Succasunna",
-            "phoneNumber": "973-927-0112",
+            "phone": "973-927-0112",
             "url": "https://roxburybagelsanddeli.com/",
-            "image": "./images/rox-bagel-img.PNG",
-            "membershipLevel": "NP"
+            "icon": "./images/rox-bagel-img.PNG",
+            "membership": "NP"
         },
         {
             "name": "Ron & Sons Towing",
             "address": "524 US-46 Kenvil",
-            "phoneNumber": "973-927-9194",
+            "phone": "973-927-9194",
             "url": "https://ronandsonstowing.com/",
-            "image": "./images/ron-sons-img.JPG",
-            "membershipLevel": "Bronze"
+            "icon": "./images/ron-sons-img.JPG",
+            "membership": "Bronze"
         }
     ]
     }
