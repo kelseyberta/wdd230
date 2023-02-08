@@ -31,7 +31,7 @@
             <a href="discover.html" class="nav-item">Discover</a>
           </li>
           <li title="directory">
-            <a class="nav-item" >Directory</a>
+            <a href="directory.html" class="nav-item" >Directory</a>
           </li>
           <li title="join">
             <a href="join.html" class="nav-item" >Join</a>
@@ -41,6 +41,9 @@
        </nav>
    
     <main id="index-main">
+      <div class="banner">
+        Join us on Wednesday at 7 p.m. for the Roxbury Area Chamber of Commerce meet and greet.
+    </div>
         <div id="index-block">
             <div id="hero">
                 <div>
@@ -59,19 +62,21 @@
                         <p>Roxbury Chamber luncheon meeting with an informative speaker and networking. This month we have the Memory Switch!</p>
                     </div>
                 </div>
-                <div id="spotlight-box">
-                    <h2>Spotlights</h2>
-                    <h3>Cliff's Ice Cream</h3>
-                    <h3>Giancarlo's Bakery</h3>   
-                </div>
-                <div>
+                <section class = "members">
+                  <h2>Our Gold and Silver Members</h2>
+                <div class="tier2">
+                </div></section>
+                
                     <div id = "weather-box">
-                        <h2>Today's Weather</h2>
-                        <p>34 degrees and partly cloudy</p>
+                      <section class="card" id="info">
+                        <h3>Current Weather</h3>
+                        <p class="weather"><img id="weather-icon"  alt = "weather icon"><span id="figcaption"></span><span id="current-temp"></span>
+                            <span id="forecast1"></span><span id="forecast2"></span><span id="forecast3"></span>
+                        <span id="tempone"></span><span></span><span id="temptwo"></span><span></span><span id="tempthree"></span></p>
+                      </section>
                     </div>
-                </div>
+                  </div>
             </div>
-        </div>
     </main>
     <footer>
         <p>&copy; 2023 - Kelsey Berta</p>
@@ -80,6 +85,9 @@
     </footer>
     <script src="scripts/getDates.js" defer></script>
     <script src="scripts/hamburger.js" defer></script>
+    <script src="scripts/weather.js" ></script>
+    <script src="scripts/spotlights.js"></script>
+    <script src="scripts/banner.js"></script>
 
 </body>
 </html>
